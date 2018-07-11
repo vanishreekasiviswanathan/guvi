@@ -8,6 +8,7 @@ Scanner sc=new Scanner(System.in);
 int N=sc.nextInt();
 if(N>0)
   System.out.println("positive");
-System.out.println(N<0?"negative":"zero");
+  else
+    System.out.println(N<0?"negative":"zero");
 }
 }
