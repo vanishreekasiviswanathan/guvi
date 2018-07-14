@@ -6,7 +6,6 @@ Scanner sc=new Scanner(System.in);
  int in=sc.nextInt();
  String[] s=new String[in];
  int count=0;
- int flag=0;
  String minStr="",res="";
  s[0]=sc.next();
  int min=s[0].length();
@@ -25,10 +24,7 @@ Scanner sc=new Scanner(System.in);
 		else
 			break loop;
 	}
-	if(i==0&&count==in) {
-		flag=1;
-		res+=ch;}
-	else if(count==in && flag==1)
+	if(count==in) 
 		res+=ch;
  }
  res=(res.length()!=0)?res:"not found";
