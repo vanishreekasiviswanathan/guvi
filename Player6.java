@@ -1,7 +1,7 @@
 import java.lang.*;
 import java.util.HashMap;
 import java.util.Scanner;
-public class Player5{
+public class Player6{
 	public static String checkIsomorphic(String s1, String s2) {
 	    if(s1==null||s2==null)
 	        return "no";
@@ -23,6 +23,9 @@ public class Player5{
 	    return "yes";
 	}
 public static void main(String[] arg){
-  System.out.println(checkIsomorphic("aa","xy"));
+	Scanner sc=new Scanner(System.in);
+	String str1=sc.next();
+	String str2=sc.next();
+  System.out.println(checkIsomorphic(str1,str2));
 }
 }
