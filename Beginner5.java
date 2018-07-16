@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Beginner5{
 public static void main(String[] arg){
 Scanner s=new Scanner(System.in);
-int max=sc.nextInt();
+int max=s.nextInt();
 for(int i=0;i<2;i++){
   int n=s.nextInt();
   if(n>max)
