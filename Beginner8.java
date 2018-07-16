@@ -4,7 +4,9 @@ public class Beginner8{
 public static void main(String[] arg){
 Scanner s=new Scanner(System.in);
 int n=s.nextInt();
-for(int i=0;i<n;i++)
-      System.out.println("Hello");
+      int sum=0;
+for(int i=1;i<=n;i++)
+     sum+=i;
+      System.out.println(sum);
 }
 }
