@@ -12,6 +12,8 @@ public static void main(String[] args)
   StringBuilder sb=new StringBuilder(str.substring(i,i+2));
   res+=sb.reverse();
   }
+  if(str.length()%2==1)
+    res+=str.charAt(str.length()-1);
   System.out.println(res);
 }
 }
