@@ -11,8 +11,7 @@ public static void main(String[] arg)
   for(int i=0;i<str.length();i++)
   {
   int m=Character.getNumericValue(str.charAt(i));
-  System.out.println(m);
-  sum+=Math.pow(m,2);
+   sum+=Math.pow(m,2);
   }
   System.out.println(sum);
   }
