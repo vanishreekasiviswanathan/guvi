@@ -15,9 +15,9 @@ public static void main(String[] args)
     {
       for(int j=n-1;j>0;j--)
       {
-        int t=a[i];
-        a[i]=a[i-1];
-        a[i-1]=t;
+        int t=a[j];
+        a[j]=a[j-1];
+        a[j-1]=t;
       }
     }
     for(int i=0;i<n;i++)
