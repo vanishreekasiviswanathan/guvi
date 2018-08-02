@@ -1,6 +1,6 @@
 import java.lang.*;
 import java.util.Scanner;
-public class Player12
+public class Player14
 {
  public static void main(String[] args)
  {
