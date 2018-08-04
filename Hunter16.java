@@ -3,7 +3,7 @@ import java.util.Scanner;
 import java.util.Map;
 import java.util.HashMap;
 import java.util.Map.Entry;
-public class Hunter13
+public class Hunter16
 {
 public static void main(String[] ar)
 {
