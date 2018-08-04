@@ -1,7 +1,7 @@
 import java.lang.*;
 import java.util.LinkedList;
 import java.util.Scanner;
-public class Hunter13{
+public class Hunter13lp{
  public static void main(String[] args)
  {
   Scanner sc=new Scanner(System.in);
