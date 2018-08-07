@@ -10,11 +10,11 @@ public static void main(String[] args)
   {
   char c=str.charAt(i);
   if(c==120 || c==88)   
-        res+='a';
+        res+=(char)(c-23);
      else if(c==121||c==89)
-        res+='b';
+        res+=(char)(c-23);
        else if(c==122||c==90)
-        res+='c';
+        res+=(char)(c-23);
         else if((c>=65&&c<88)||(c>=97 && c<120))
           res+=(char)(c+3);
           else
