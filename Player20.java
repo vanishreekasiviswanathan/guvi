@@ -9,13 +9,13 @@ public static void main(String[] args)
   for(int i=0;i<str.length();i++)
   {
   char c=str.charAt(i);
-  if(c==120 ||(c==88)   
+  if(c==120 || c==88)   
         res+='a';
      else if(c==121||c==89)
         res+='b';
        else if(c==122||c==90)
         res+='c';
-        else if((c>=65&&c<=90)||(c>=97 && c<=122))
+        else if((c>=65&&c<88)||(c>=97 && c<120))
           res+=(char)(c+3);
           else
             res+=c;
