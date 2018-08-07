@@ -1,6 +1,6 @@
 import java.lang.*;
 import java.util.Scanner;
-public class Player{
+public class Player20{
 public static void main(String[] args)
 {
   Scanner sc=new Scanner(System.in);
