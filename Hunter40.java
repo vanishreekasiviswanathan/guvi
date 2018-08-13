@@ -16,5 +16,6 @@ for(int i=0;i<len;i++)
 StringBuilder sb=new StringBuilder(""+sum);
 sb.reverse();
 System.out.println((String.valueOf(sum).equals(sb.toString()))?"YES":"NO");
+  sc.close();
 }
 }
