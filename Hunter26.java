@@ -9,9 +9,9 @@ public static void main(String[] args)
    int[] a=new int[n];
    for(int i=0;i<n;i++)
       a[i]=sc.nextInt();
-   for(int i=0;i<n;i++)
+   for(int i=n-1;i>=0;i--)
    {
-      if(i!=n-1)
+      if(i!=0)
          System.out.print(a[i]+"->");
       else
          System.out.print(a[i]);
