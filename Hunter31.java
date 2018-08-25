@@ -2,7 +2,7 @@ import java.lang.*;
 import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.Collections;
-public class play{
+public class Hunter31{
 	public static void main(String[] args)
 	{
 		Scanner sc=new Scanner(System.in);
