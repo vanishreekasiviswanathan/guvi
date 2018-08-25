@@ -12,10 +12,8 @@ public static void main(String[] args)
   for(int i=0;i<n;i++)
 	  a[i]=sc.nextInt();
   ArrayList<Integer> al=new ArrayList<Integer>();
-  for(int i=n-1;i>=0;i--)
-  {
-	  int len=i;
-    for(int j=0;j<=i;j++)
+	  int len=a.length-1;
+    for(int j=0;j<=a.length-1;j++)
     {
     	int sum=0;
     	for(int k=j;k<=len;k++)
@@ -24,7 +22,6 @@ public static void main(String[] args)
     		al.add(sum);
     	}len--;
     }
-  }
   Collections.sort(al);
   System.out.println(al.get(al.size()-1));
   sc.close();
