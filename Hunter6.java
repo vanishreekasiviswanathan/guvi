@@ -9,11 +9,11 @@ for(int i=0;i<n;i++)
   ar[i]=s.nextInt();
  for(int i=0;i<n;i++){
  if(i%2==0){
-    if(ar[i]%2==0)
+    if(ar[i]%2!=0)
         System.out.print(ar[i]+" ");
         }
     else{
-      if(ar[i]%2!=0)
+      if(ar[i]%2==0)
        System.out.print(ar[i]+" ");
        }
  }
